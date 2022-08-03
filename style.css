@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body {
+    background: url(images/MT0dn2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Monofett', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cont {
+    border: 2px solid rgb(107, 104, 104);
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(16, 106, 190);
+    opacity: 0.5;
+}
+
+#player {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(240, 1, 1);
+    margin: auto;
+    margin-top: 40px;
+}
+
+#player:hover {
+    background-color: rgb(94, 4, 4);
+    cursor: pointer;
+}
+
+#score {
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+#timer {
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(37, 9, 9);
+    font-size: 40px;
+}
